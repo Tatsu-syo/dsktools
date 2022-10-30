@@ -1,0 +1,15 @@
+Setup guide
+
+Required:
+gcc glibc make
+
+How to make
+
+1. Move src directory.
+2. Change SETUP_DESTINATION variable in Makefile
+ SETUP_DESTINATION := ~/bin
+3. Execute make.
+
+How to uninstall
+
+Execute make clean
